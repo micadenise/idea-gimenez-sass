@@ -1,0 +1,71 @@
+@media screen and (min-width: 1024px) {
+    .header-index {
+        width: 100%;
+
+        display: grid;
+        grid-template-areas:
+        "logo"
+        "nav";
+
+        .logo {
+            width: 250px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            margin-top: auto;
+            margin-left: 100px;
+    
+            .logo {
+                grid-area: logo;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+                margin: 20px;
+                padding: 5px 0px;
+            }
+        }
+    }
+
+    
+    .todas-imagenes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+
+        .imagen-masc-pestañas {
+            /* largo de img */
+            height: 200px;
+            /* ancho de img */
+            width: 150px;
+        }
+        
+        .imagen-labiales {
+            height: 200px;
+            width: 200px;
+        }
+        
+        .imagen-iluminador {
+            height: 200px;
+        }
+        
+        .imagen-rubor {
+            height: 200px;
+            width: 200px;
+        }
+        
+        .imagen-sombras {
+            height: 200px;
+        
+        }
+    }
+
+    .tabla {
+        border: solid 3px rgb(226, 219, 236);
+        border-radius: 4px;
+        padding: 10px;
+        height: 80px;
+        width: 500px;
+    }
+}

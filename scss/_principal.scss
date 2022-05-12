@@ -1,0 +1,115 @@
+/* MAIN */
+
+$color-primary: rgb(212, 203, 219);
+$color-secondary: rgb(48, 22, 73);
+
+/* ENCABEZADOS */
+.fuente-encabezados {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 500; 
+    color: $color-primary;
+    text-shadow: 0.1em 0.1em $color-secondary;
+    text-decoration: underline;
+
+    /* TEXTOS */
+    /* PRODUCTOS */
+    .fuente-textos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 550; 
+        color: $color-primary;
+        }
+
+    .nombres-productos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 700;
+    color: $color-primary;
+    text-shadow: 0.1em 0.1em rgb(114, 76, 151);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+         }
+    
+    .nombre-redes {
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 15px;
+      color: black;
+        }
+        
+    .fuente-lista {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 16px;
+       font-weight: 500px; 
+       color: $color-secondary;    
+        }
+}
+
+
+
+/* IMÁGENES */
+
+.imagen-masc-pestañas {
+    /* largo de img */
+    height: 200px;
+    /* ancho de img */
+    width: 150px;
+}
+
+.imagen-labiales {
+    height: 200px;
+    width: 200px;
+}
+
+.imagen-iluminador {
+    height: 200px;
+}
+
+.imagen-rubor {
+    height: 200px;
+    width: 200px;
+}
+
+.imagen-sombras {
+    height: 200px;
+
+}
+
+.animacion:hover {
+    transform: scale(1.1);
+}
+
+/* TABLA */
+.tabla {
+    border: solid 3px rgb(226, 219, 236);
+    border-radius: 4px;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+/* PAG CONTACTOS */
+/* LOGOS */
+.logo-apps {
+    height: 50px;
+    margin: 15px;
+}
+
+.tabla-textos, .tabla-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    margin: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 80px);
+}
+
+.video {
+    margin-top: 20px;
+}
